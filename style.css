@@ -1,4 +1,19 @@
 body{
+  
 
-    background-image: url("HASSAN.JPEG");
+    /* background-image: url("HASSAN.JPEG");
+ */
+
 }
+   p{
+    margin: 0;
+    padding: 0;
+    border: 5px red solid;
+box-sizing: border-box;
+text-align: center;
+width: 100%;
+
+
+    
+    margin: 0px 40px;
+   }
