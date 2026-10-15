@@ -17,7 +17,9 @@
     background-color: #333;
     padding: 15px 30px;
 font-size: 18px;
-    color: white;    
+    color: white;  
+    
+    
 }
 
 .navbar a {
@@ -52,4 +54,73 @@ padding-left: 10px;
     padding-left: 10px;
 }
 
+
 /* endnav */ 
+/* .box{
+    width: 300px;
+    height: 100px;
+    border: 5px solid #c91919;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+     
+}
+h1::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #c91919;
+} */
+ h2{
+    width: 200px;
+    /* height: 100px; */
+    border: 3px solid #c91919;
+    margin: 100px auto;
+    text-align: center;
+    padding: 100px 50px;
+    position: relative;
+ }
+ h2::after{
+    content: " ";
+    width: 50PX;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+
+}
+h2::before{
+    content: " ";
+    width: 50PX;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: -30px;
+    left: 35px;
+
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.9s ease-in-out;
+    overflow: auto;
+
+}
+button:hover{
+    background-color: rgba(156, 151, 151, 0.5);
+    border: 1px solid white;
+}
+box2{
+    width: 200px;
+    height: 100px;
+    border: 5px solid #c91919;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+    margin: 100px auto;
+}
